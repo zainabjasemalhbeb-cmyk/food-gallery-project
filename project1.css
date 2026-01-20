@@ -1,5 +1,5 @@
 body { margin:0; font-family: system-ui, Arial, sans-serif; background-color: #edbbc5 }
-    main {   padding: 10rem;   text-align: center;}
+    main {   padding-top: 10rem;   text-align: center;}
   h1{color: #fffefe;font-size: :10em; font-weight: 500;}
       centered-image { display: block; margin: 20px auto; width:300px; height: auto;}        
   .nav { display:flex; align-items:center; justify-content:space-between; background:#333; color:#fff; padding:1.5rem 1.5rem; }
@@ -44,4 +44,5 @@ body { margin:0; font-family: system-ui, Arial, sans-serif; background-color: #e
     .nav ul li {
         margin: 10px 0;
     }
+
 }
