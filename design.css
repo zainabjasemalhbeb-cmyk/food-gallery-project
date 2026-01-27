@@ -77,26 +77,24 @@ h1 {
     .image-item-4 img {
         height: 220px;
     }
- .back-to-home {
+.back-to-home { 
     position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #fd83ac;
+    top: 10px; 
+    right: 10px; 
+    background: linear-gradient(135deg, #e76d98 0%, #fd83ac 100%);
     color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none; 
     font-weight: bold;
-    font-size: 18px;
-    box-shadow: 0 6px 15px rgba(253, 131, 172, 0.4);
+    font-size: 26px; 
+    box-shadow: 0 8px 25px 15px rgba(253, 131, 172, 0.4);
     z-index: 1000;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+    border: 3px solid white; 
 }
-
-.back-to-home:hover {
-    background-color: #e76d98;
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 20px rgba(253, 131, 172, 0.6);
+.back-to-home:hover { 
+    background: linear-gradient(135deg, #e76d98 0%, #fd83ac 100%);
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 35px rgba(253, 131, 172, 0.4);
 }
-
-
